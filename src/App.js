@@ -22,7 +22,7 @@ function App() {
       console.log("yanlış cevap");
     }
   }
-  if (!data) return <div>yükleniyor...</div>;
+  if (!data) return <div>loadıng...</div>;
   const all_answers = [
     data[index].correct_answer,
     ...data[index].incorrect_answers,
